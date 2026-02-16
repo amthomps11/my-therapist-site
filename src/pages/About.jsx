@@ -78,7 +78,7 @@ export default function About() {
 
           <div className='grid md:grid-cols-2 gap-8'>
             <div className='bg-white p-6 rounded-lg shadow-sm'>
-              <h2 className='text-xl font-semibold text-teal-700 mb-4 flex items-center'>
+              <h2 className='text-xl font-semibold mb-4 flex items-center' style={{ color: 'rgb(25, 66, 66)' }}>
                 <MapPin
                   className='mr-2'
                   size={24}
@@ -94,7 +94,7 @@ export default function About() {
               </p>
             </div>
             <div className='bg-white p-6 rounded-lg shadow-sm'>
-              <h2 className='text-xl font-semibold text-teal-700 mb-4'>
+              <h2 className='text-xl font-semibold mb-4' style={{ color: 'rgb(25, 66, 66)' }}>
                 Telehealth Services
               </h2>
               <p className='text-gray-600'>

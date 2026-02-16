@@ -19,7 +19,7 @@ export default function Insurance() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h2 className="text-2xl font-semibold text-teal-700 mb-4">Accepted Insurance</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: 'rgb(25, 66, 66)' }}>Accepted Insurance</h2>
               <ul className="space-y-2 text-gray-600">
                 <li>• Highmark Blue Cross Blue Shield (and most Blue Cross plans)</li>
                 <li>• Aetna (commercial plans)</li>
@@ -29,7 +29,7 @@ export default function Insurance() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <h2 className="text-2xl font-semibold text-teal-700 mb-4">Out-of-Network Support</h2>
+              <h2 className="text-2xl font-semibold mb-4" style={{ color: 'rgb(25, 66, 66)' }}>Out-of-Network Support</h2>
               <p className="text-gray-600 mb-4">
                 If I am not in-network with your plan, you may still be eligible for reimbursement. 
                 I can provide documentation for out-of-network benefits.

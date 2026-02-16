@@ -23,7 +23,13 @@ export default function Appointments() {
           <div className="text-center mb-12">
             <a 
               href="#" 
-              className="inline-block bg-teal-600 text-white px-8 py-3 rounded-lg text-lg hover:bg-teal-700 transition shadow-lg"
+              className="inline-block text-white px-8 py-3 rounded-lg text-lg transition shadow-lg"
+              style={{
+                backgroundColor: 'rgb(25, 66, 66)',
+                cursor: 'pointer'
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = 'rgb(18, 50, 50)'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = 'rgb(25, 66, 66)'}
             >
               Schedule through SimplePractice
             </a>

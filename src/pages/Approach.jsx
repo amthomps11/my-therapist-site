@@ -36,7 +36,7 @@ export default function Approach() {
           </p>
 
           <div className='mb-12'>
-            <h2 className='text-2xl font-semibold text-teal-700 mb-4'>
+            <h2 className='text-2xl font-semibold mb-4' style={{ color: 'rgb(25, 66, 66)' }}>
               My Philosophy
             </h2>
             <div className='text-gray-600 leading-relaxed space-y-4'>
@@ -72,14 +72,15 @@ export default function Approach() {
           </div>
 
           <div className='mb-12'>
-            <h2 className='text-2xl font-semibold text-teal-700 mb-6'>
+            <h2 className='text-2xl font-semibold mb-6' style={{ color: 'rgb(25, 66, 66)' }}>
               Modalities I Use
             </h2>
             <div className='grid md:grid-cols-2 gap-4'>
               <div className='flex items-start space-x-3'>
                 <div className='flex items-start space-x-3'>
                   <CheckCircle
-                    className='text-teal-600 mt-1 flex-shrink-0'
+                    className='mt-1 flex-shrink-0'
+                    style={{ color: 'rgb(25, 66, 66)' }}
                     size={20}
                   />
                   <div>
@@ -91,7 +92,8 @@ export default function Approach() {
               </div>
               <div className='flex items-start space-x-3'>
                 <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
+                  className='mt-1 flex-shrink-0'
+                  style={{ color: 'rgb(25, 66, 66)' }}
                   size={20}
                 />
                 <p className='font-semibold text-gray-900'>
@@ -100,22 +102,19 @@ export default function Approach() {
               </div>
               <div className='flex items-start space-x-3'>
                 <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
+                  className='mt-1 flex-shrink-0'
+                  style={{ color: 'rgb(25, 66, 66)' }}
                   size={20}
                 />
                 <p className='font-semibold text-gray-900'>
                   Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)
                 </p>
               </div>
+            
               <div className='flex items-start space-x-3'>
                 <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
-                  size={20}
-                />
-              </div>
-              <div className='flex items-start space-x-3'>
-                <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
+                  className='mt-1 flex-shrink-0'
+                  style={{ color: 'rgb(25, 66, 66)' }}
                   size={20}
                 />
                 <p className='font-semibold text-gray-900'>
@@ -124,7 +123,8 @@ export default function Approach() {
               </div>
               <div className='flex items-start space-x-3'>
                 <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
+                  className='mt-1 flex-shrink-0'
+                  style={{ color: 'rgb(25, 66, 66)' }}
                   size={20}
                 />
                 <p className='font-semibold text-gray-900'>
@@ -133,7 +133,8 @@ export default function Approach() {
               </div>
               <div className='flex items-start space-x-3'>
                 <CheckCircle
-                  className='text-teal-600 mt-1 flex-shrink-0'
+                  className='mt-1 flex-shrink-0'
+                  style={{ color: 'rgb(25, 66, 66)' }}
                   size={20}
                 />
                 <p className='font-semibold text-gray-900'>Psychodynamic</p>
@@ -141,8 +142,8 @@ export default function Approach() {
             </div>
           </div>
 
-          <div className='bg-teal-50 p-6 rounded-lg'>
-            <h2 className='text-xl font-semibold text-teal-700 mb-3'>
+          <div className='p-6 rounded-lg' style={{ backgroundColor: 'rgb(240, 248, 248)' }}>
+            <h2 className='text-xl font-semibold mb-3' style={{ color: 'rgb(25, 66, 66)' }}>
               Special Population
             </h2>
             <p className='text-gray-600 leading-relaxed'>
