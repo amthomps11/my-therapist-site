@@ -39,7 +39,6 @@ export default function Footer() {
           <div>
             <h4 className='text-white font-semibold mb-3'>Certifications</h4>
             <p className='text-sm text-gray-400'>
-              <br />
               EMDRIA Trained Provider
               <br />
               Certified in Prolonged Exposure (PE)
