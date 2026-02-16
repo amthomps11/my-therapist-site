@@ -2,6 +2,7 @@ import React from 'react';
 import { CheckCircle } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import chairsImage from '../assets/chairs.png';
 
 export default function Approach() {
   const containerStyle = {
@@ -35,39 +36,49 @@ export default function Approach() {
             process.
           </p>
 
-          <div className='mb-12'>
-            <h2 className='text-2xl font-semibold mb-4' style={{ color: 'rgb(25, 66, 66)' }}>
-              My Philosophy
-            </h2>
-            <div className='text-gray-600 leading-relaxed space-y-4'>
-              <p>
-                My philosophy is relational, collaborative, eclectic, and
-                grounded in evidence-based practice. Therapy with me isn't
-                one-size-fits-all — it's tailored to you. I draw from
-                research-supported treatments while staying flexible to your
-                unique needs, goals, and lived experiences.
-              </p>
-              <p>
-                I strive to create a space where you feel safe, understood, and
-                genuinely supported. Growth happens when you feel accepted and
-                gently challenged at the same time. I'm compassionate and direct
-                when it's helpful, transparent in my process, and always
-                collaborative in decision-making.
-              </p>
-              <p>
-                I also believe therapy doesn't have to feel overly clinical or
-                rigid. When appropriate, I use humor to build connection and
-                make difficult conversations feel more human. Sometimes we're
-                processing heavy experiences. Sometimes we're noticing patterns,
-                resilience, or even the irony in life's challenges. Both can
-                coexist.
-              </p>
-              <p>
-                Above all, my goal is for you to feel comfortable being fully
-                yourself here — with complicated thoughts, messy feelings, and
-                everything in between. You don't need to have it all figured out
-                to begin. You just have to show up. I'll meet you there.
-              </p>
+          <div className='mb-12 grid md:grid-cols-2 gap-8 items-center'>
+            <div>
+              <img
+                src={chairsImage}
+                alt='Comfortable therapy space'
+                className='w-full h-auto rounded-lg object-cover'
+                style={{ maxHeight: '400px' }}
+              />
+            </div>
+            <div>
+              <h2 className='text-2xl font-semibold mb-4' style={{ color: 'rgb(25, 66, 66)' }}>
+                My Philosophy
+              </h2>
+              <div className='text-gray-600 leading-relaxed space-y-4'>
+                <p>
+                  My philosophy is relational, collaborative, eclectic, and
+                  grounded in evidence-based practice. Therapy with me isn't
+                  one-size-fits-all — it's tailored to you. I draw from
+                  research-supported treatments while staying flexible to your
+                  unique needs, goals, and lived experiences.
+                </p>
+                <p>
+                  I strive to create a space where you feel safe, understood, and
+                  genuinely supported. Growth happens when you feel accepted and
+                  gently challenged at the same time. I'm compassionate and direct
+                  when it's helpful, transparent in my process, and always
+                  collaborative in decision-making.
+                </p>
+                <p>
+                  I also believe therapy doesn't have to feel overly clinical or
+                  rigid. When appropriate, I use humor to build connection and
+                  make difficult conversations feel more human. Sometimes we're
+                  processing heavy experiences. Sometimes we're noticing patterns,
+                  resilience, or even the irony in life's challenges. Both can
+                  coexist.
+                </p>
+                <p>
+                  Above all, my goal is for you to feel comfortable being fully
+                  yourself here — with complicated thoughts, messy feelings, and
+                  everything in between. You don't need to have it all figured out
+                  to begin. You just have to show up. I'll meet you there.
+                </p>
+              </div>
             </div>
           </div>
 
