@@ -19,7 +19,9 @@ export default function Footer() {
               Emily Andrews, MS, NBCC #, LPC
             </h4>
             <p className='text-sm text-gray-400'>
-              Licensed Professional Counselor Nationally Certified Counselor
+              Licensed Professional Counselor
+              <br />
+              Nationally Certified Counselor
             </p>
           </div>
           <div>
