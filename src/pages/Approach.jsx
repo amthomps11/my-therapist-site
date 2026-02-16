@@ -20,7 +20,7 @@ export default function Approach() {
           className='px-4 sm:px-6 lg:px-8'
         >
           <h1 className='text-3xl md:text-4xl font-serif text-gray-900 mb-6 text-center'>
-            How I Work
+            My Approach
           </h1>
           <p
             className='text-xl text-gray-600 mb-12 text-center italic'
@@ -39,11 +39,36 @@ export default function Approach() {
             <h2 className='text-2xl font-semibold text-teal-700 mb-4'>
               My Philosophy
             </h2>
-            <p className='text-gray-600 leading-relaxed'>
-              My approach to therapy is relational, collaborative, eclectic, and
-              grounded in evidence-based practice. I create a space where you
-              feel safe, understood, and supported.
-            </p>
+            <div className='text-gray-600 leading-relaxed space-y-4'>
+              <p>
+                My philosophy is relational, collaborative, eclectic, and
+                grounded in evidence-based practice. Therapy with me isn't
+                one-size-fits-all — it's tailored to you. I draw from
+                research-supported treatments while staying flexible to your
+                unique needs, goals, and lived experiences.
+              </p>
+              <p>
+                I strive to create a space where you feel safe, understood, and
+                genuinely supported. Growth happens when you feel accepted and
+                gently challenged at the same time. I'm compassionate and direct
+                when it's helpful, transparent in my process, and always
+                collaborative in decision-making.
+              </p>
+              <p>
+                I also believe therapy doesn't have to feel overly clinical or
+                rigid. When appropriate, I use humor to build connection and
+                make difficult conversations feel more human. Sometimes we're
+                processing heavy experiences. Sometimes we're noticing patterns,
+                resilience, or even the irony in life's challenges. Both can
+                coexist.
+              </p>
+              <p>
+                Above all, my goal is for you to feel comfortable being fully
+                yourself here — with complicated thoughts, messy feelings, and
+                everything in between. You don't need to have it all figured out
+                to begin. You just have to show up. I'll meet you there.
+              </p>
+            </div>
           </div>
 
           <div className='mb-12'>
@@ -58,7 +83,9 @@ export default function Approach() {
                     size={20}
                   />
                   <div>
-                    <p className='font-semibold text-gray-900'>EMDR</p>
+                    <p className='font-semibold text-gray-900'>
+                      Eye Movement Desensitization and Reprocessing (EMDR)
+                    </p>
                   </div>
                 </div>
               </div>
@@ -85,9 +112,6 @@ export default function Approach() {
                   className='text-teal-600 mt-1 flex-shrink-0'
                   size={20}
                 />
-                <p className='font-semibold text-gray-900'>
-                  Recovery-Oriented Cognitive Therapy (CT-R)
-                </p>
               </div>
               <div className='flex items-start space-x-3'>
                 <CheckCircle
