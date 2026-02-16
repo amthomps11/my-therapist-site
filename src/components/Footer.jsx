@@ -23,6 +23,13 @@ export default function Footer() {
               <br />
               Nationally Certified Counselor
             </p>
+            <br />
+            <p className='text-sm text-gray-400'>
+              <a href='https://www.cms.gov/nosurprises'>No Surprises Act</a>
+              <br />
+              You have the right to receive a Good Faith Estimate of what your
+              services may cost.
+            </p>
           </div>
           <div>
             <h4 className='text-white font-semibold mb-3'>Licenses</h4>
